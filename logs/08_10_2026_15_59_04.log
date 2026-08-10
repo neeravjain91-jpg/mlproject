@@ -1,0 +1,12 @@
+[2026-08-10 15:59:05,648] 22 root - INFO - Entered the data ingestion component
+[2026-08-10 15:59:05,650] 29 root - INFO - Read dataset as DataFrame
+[2026-08-10 15:59:05,655] 42 root - INFO - Train-test split initiated
+[2026-08-10 15:59:05,660] 62 root - INFO - Data ingestion completed
+[2026-08-10 15:59:05,663] 66 root - INFO - Read train and test data completed
+[2026-08-10 15:59:05,663] 68 root - INFO - Obtaining preprocessing object
+[2026-08-10 15:59:05,663] 46 root - INFO - Numerical columns standard scaling completed
+[2026-08-10 15:59:05,663] 47 root - INFO - Categorical columns encoding completed
+[2026-08-10 15:59:05,665] 81 root - INFO - Applying preprocessing object on training and testing datasets.
+[2026-08-10 15:59:05,697] 96 root - INFO - Saved preprocessing object.
+[2026-08-10 15:59:05,699] 37 root - INFO - Split training and test input data
+[2026-08-10 16:00:04,671] 109 root - INFO - Best found model on both training and testing dataset: LinearRegression()
